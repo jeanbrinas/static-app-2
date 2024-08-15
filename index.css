@@ -1,0 +1,26 @@
+* {
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+	color: #ffffff;
+}
+
+html, body {
+	background-color: #15130b;
+}
+
+/* NAVBAR */
+.navbar {
+	background-color:#15130b;
+}
+.navbar .nav-link {
+	padding: .5rem 1rem !important;
+	font-size: .9rem;
+}
+.navbar .nav-link.active {
+	color: #ba9e67 !important;
+}
+
+/* HOME */
+#home {
+	background-color: #15130b;
+}
