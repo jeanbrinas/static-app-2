@@ -8,7 +8,7 @@
     <title>Codify: Your Ultimate Educational Resource Hub</title>
 
     <!-- External CSS -->
-	<link rel="stylesheet" type="text/css" href="index.css">
+	  <link rel="stylesheet" type="text/css" href="index.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -25,7 +25,7 @@
   <body>
     
     <!-- NAV START -->
-  	<nav class="navbar navbar-expand-lg navbar-dark sticky-top px-md-5">
+  	<nav class="navbar navbar-expand-lg navbar-dark px-md-5">
       <div class="container">
     	<a class="navbar-brand" href="#">
 	      <img src="assets/logo.png" alt="" width="100" height="auto">
@@ -38,14 +38,21 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#categories" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#development">Development</a></li>
+                <li><a class="dropdown-item" href="#marketing">Marketing</a></li>
+                <li><a class="dropdown-item" href="#copywriting">Copywriting</a></li>
+              </ul>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
+              <a class="nav-link" href="#categories-section">Categories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#products">Our Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacts">Contacts</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
           </ul>
 	      	
@@ -60,28 +67,405 @@
 
     <!-- HERO START -->
     <div id="home">
-	    <div class="container col-xxl-8 px-4 py-5">
-	        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+	    <div class="container col-xxl-8">
+	        <div class="row flex-lg-row-reverse align-items-center g-5">
 	          <div class="col-10 col-sm-8 col-lg-6">
-	            <img src="assets/feat-img14.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="360" height="500" loading="lazy">
+	            <img src="assets/feat-img14.png" class="d-block mx-auto img-fluid" width="400" height="500" loading="lazy">
 	          </div>
 	          <div class="col-lg-6">
 	            <h1 class="display-5 fw-bold lh-1 mb-3">Codifyd</h1>
 	            <p class="lead">Your Ultimate Educational Resource Hub</p>
 	            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-	              <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Primary</button>
+	              <a href="#introduction" class="btn btn-warning btn-lg px-4 me-md-2 text-dark">Read more</a>
 	            </div>
 	          </div>
 	        </div>
+	        <div class="text-center scroll-hero">
+	        	<a href="#introduction">
+		        	<svg data-v-3699c9a0="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28.5px" height="43.5px" viewBox="0 0 28.5 43.5" enable-background="new 0 0 28.5 43.5" xml:space="preserve"><g data-v-3699c9a0=""><path data-v-3699c9a0="" fill="none" stroke="#ba9e67" stroke-width="3" d="M14.415,41.848L14.415,41.848C7.587,41.848,2,36.261,2,29.433V14.415 C2,7.587,7.587,2,14.415,2h0c6.828,0,12.415,5.587,12.415,12.415v15.019C26.829,36.261,21.243,41.848,14.415,41.848z"></path><line data-v-3699c9a0="" id="dropdown-point" x1="14.415" y1="12.408" x2="14.415" y2="12.408" stroke="#ba9e67" stroke-width="5" stroke-linecap="round"><animate data-v-3699c9a0="" id="animation1" attributeName="y2" dur="3s" values="12.408; 12.408; 12.408; 15.908; 19.408; 19.408; 23.408; 23.408; 23.408; 23.408; 23.408" repeatCount="indefinite" begin="0s" fill="freeze"></animate><animate data-v-3699c9a0="" id="animation2" attributeName="y1" dur="3s" values="12.408; 12.408; 12.408; 12.408; 12.408; 12.408; 23.408; 23.408; 23.408; 23.408; 23.408" repeatCount="indefinite" begin="0s" fill="freeze"></animate><animate data-v-3699c9a0="" id="animation3" attributeName="opacity" dur="3s" values="0; 1; 1; 1; 1; 1; 1; 1; 1; 0; 0;" repeatCount="indefinite" begin="0s" fill="freeze"></animate></line></g></svg>	
+		        </a>
+	        </div>
 	     </div>	
     </div>
-    
     <!-- HERO END -->
+
+    <!-- INTRO START -->
+    <div id="introduction">
+	    <div class="container py-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+	      <div class="row align-items-center g-4">
+          <div class="col-12">
+            <h1 class="display-5 fw-bold pb-5 text-center">Introduction</h1>
+            <hr>
+          </div>
+          <div class="col-10 col-sm-8 col-lg-4">
+            <img class="img-fluid mx-auto" src="assets/feat-img4.png" alt="" width="368" height="auto">
+          </div>
+          <div class="col-lg-8 ">
+            <p class="lead">Welcome to Codify, the go-to educational resource hub for learners, educators, and professionals alike! Whether you're a coding enthusiast, a student aiming to excel in your studies, or a professional looking to enhance your skills, <span class="text-warning">Codify</span> provides a wealth of resources designed to meet your learning needs. Our mission is to empower individuals through accessible, high-quality educational content that fosters growth and innovation in today's fast-paced digital world.</p>
+          </div>
+          <div class="col-12">
+            <p class="lead mb-4">At <span class="text-warning">Codify</span>, we believe that learning should be engaging, practical, and tailored to your goals. That's why we've curated a comprehensive library of materials that cater to different learning styles and skill levels. From interactive tutorials and detailed guides to practice exercises and expert insights, <span class="text-warning">Codify</span> has something for everyone.</p>
+          </div>
+        </div>  
+	  	</div>
+	</div>
+    <!-- INTRO END -->
+
+    <!-- FEATURED START -->
+    <div id="featured">
+    	<div class="container py-5" id="icon-grid">
+    	    <h1 class="display-4 fw-bold lh-1 mb-3 pb-5">Featured</h1>
+          <hr>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+              <div class="feature-icon">
+                <img class="d-block mx-auto mb-4" src="assets/feat-img15.png" alt="" width="368" height="auto">
+              </div>
+              <h4>Interactive Tutorials</h4>
+              <p>Dive into our interactive tutorials covering a wide range of subjects, including programming languages, data science, web development, and more.</p>
+              
+            </div>
+            <div class="feature col aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+              <div class="feature-icon">
+                <img class="d-block mx-auto mb-4" src="assets/feat-img16.png" alt="" width="368" height="auto">
+              </div>
+              <h4>Comprehensive Guides</h4>
+              <p>Explore our in-depth guides that break down complex topics into easy-to-understand sections. </p>
+             
+            </div>
+            <div class="feature col aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+              <div class="feature-icon">
+                <img class="d-block mx-auto mb-4" src="assets/feat-img17.png" alt="" width="368" height="auto">
+              </div>
+              <h4>Practice Exercises</h4>
+              <p>Put your knowledge to the test with our extensive collection of practice exercises. </p>
+            </div>
+          </div>
+    	  </div>
+    </div>
+    <!-- FEATURED END -->
+
+    <!-- CATEGORIES START -->
+    <div id="categories-section">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center">Start Learning</h4>
+            <h1 class="display-4 fw-bold lh-1 pb-2 text-center pb-5">Popular Courses</h1>
+
+            <hr>
+
+            <p class="text-center pt-4">At <span class="text-warning">Codify</span>, we offer a wide range of educational resources across various categories, ensuring that you can find the right content to match your interests and learning goals. Explore our diverse categories to discover everything from foundational knowledge to advanced skills in your chosen field.</p>
+
+            <div id="categories" class="container p-md-5 p-3 d-md-flex align-items-start">
+              <ul class="nav nav-pills flex-md-column flex-row nav-pills border-3 me-3 align-items-end" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold active position-relative" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">Development</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2" aria-selected="false">Data Science</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3" aria-selected="false">Artificial Intelligence</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pills-4-tab" data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-4" aria-selected="false">Cybersecurity</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link fw-semibold position-relative" id="pills-5-tab" data-bs-toggle="pill" data-bs-target="#pills-5" type="button" role="tab" aria-controls="pills-5" aria-selected="false">UX/UI</button>
+                </li>
+              </ul>
+              <div class="tab-content border rounded-3 p-3 text-danger w-100" id="pills-tabContent">
+                <div class="tab-pane fade show active p-3" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                  <h4>Programming & Development</h4>
+                  <ul>
+                    <li>Languages: Python, JavaScript, Java, C++, Ruby, Go, Swift, and more.</li>
+                    <li>Web Development: HTML, CSS, JavaScript frameworks (React, Angular, Vue), Backend (Node.js, Django, Flask).</li>
+                    <li>Mobile Development: iOS (Swift, Objective-C), Android (Kotlin, Java), Cross-platform (Flutter, React Native).</li>
+                    <li>Game Development: Unity, Unreal Engine, Game Design Principles, 2D/3D Art.</li>
+                  </ul>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#programming">
+                    Read more...
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="programming" tabindex="-1" aria-labelledby="programmingLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Programming & Development: <br>Master the Art of Code with <span class="text-warning">Codify</span></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p><b>Introduction</b></p>
+                          <p>Programming and development are at the heart of modern technology, driving innovation across industries. Whether you're a beginner eager to learn the basics or a seasoned developer looking to expand your skill set, <span class="text-warning">Codify</span> offers a wide range of resources to help you master the art of coding. From understanding core programming concepts to building complex applications, our content is designed to guide you every step of the way.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade p-3" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                  <h4>Data Science & Analytics</h4>
+                  <ul>
+                    <li>Data Analysis: Excel, SQL, R, Python for Data Science.</li>
+                    <li>Machine Learning: TensorFlow, PyTorch, Scikit-learn, Keras.</li>
+                    <li>Data Visualization: Tableau, Power BI, Matplotlib, Seaborn, D3.js.</li>
+                    <li>Big Data: Hadoop, Spark, Data Lakes, NoSQL Databases.</li>
+                  </ul>
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#datascience">
+                    Read more...
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="datascience" tabindex="-1" aria-labelledby="datascienceLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Data Science & Analytics: <br>Unlock the Power of Data with <span class="text-warning">Codify</span></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p><b>Introduction</b></p>
+                          <p>In today's data-driven world, the ability to analyze and interpret data is a highly sought-after skill. Data Science and Analytics empower businesses and individuals to make informed decisions, optimize processes, and discover new opportunities. At <span class="text-warning">Codify</span>, we offer a wide range of resources to help you master the techniques and tools needed to harness the power of data. Whether you're just starting out or looking to deepen your expertise, our content is designed to guide you through every aspect of Data Science and Analytics.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade p-3" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                  <h4>Artificial Intelligence & Robotics</h4>
+                  <ul>
+                    <li>AI Fundamentals: Neural Networks, Natural Language Processing (NLP), Computer Vision.</li>
+                    <li>Deep Learning: Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Generative Models.</li>
+                    <li>Robotics: Robot Operating System (ROS), Automation, Embedded Systems.</li>
+                  </ul>
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#ai">
+                    Read more...
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="ai" tabindex="-1" aria-labelledby="aiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Artificial Intelligence: <br>Explore the Future of Technology with <span class="text-warning">Codify</span></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p><b>Introduction</b></p>
+                          <p>Artificial Intelligence (AI) is revolutionizing industries and transforming the way we live, work, and interact with technology. From smart assistants to autonomous vehicles, AI is at the forefront of innovation. At <span class="text-warning">Codify</span>, we offer comprehensive resources to help you dive into the world of AI, whether you're a beginner eager to understand the basics or an advanced practitioner looking to deepen your expertise. Our AI content covers everything from foundational concepts to cutting-edge techniques, ensuring you have the knowledge and skills to thrive in this rapidly evolving field.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade p-3" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                  <h4>Cybersecurity</h4>
+                  <ul>
+                    <li>Ethical Hacking: Penetration Testing, Vulnerability Analysis, Security Audits.</li>
+                    <li>Network Security: Firewalls, Intrusion Detection Systems (IDS), Secure Network Design.</li>
+                    <li>Cryptography: Encryption Algorithms, Blockchain, Data Privacy.</li>
+                    <li>Compliance & Risk Management: GDPR, ISO/IEC Standards, Incident Response.</li>
+                  </ul>
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#cybersecurity">
+                    Read more...
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="cybersecurity" tabindex="-1" aria-labelledby="cybersecurityLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Cybersecurity: <br>Safeguard the Digital World with <span class="text-warning">Codify</span></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p><b>Introduction</b></p>
+                          <p>In an increasingly digital world, cybersecurity has become more critical than ever. Protecting sensitive information, securing networks, and defending against cyber threats are essential for individuals, businesses, and governments alike. At <span class="text-warning">Codify</span>, we offer a comprehensive suite of resources to help you master the skills needed to secure digital environments. Whether you're new to cybersecurity or looking to advance your expertise, our content covers everything from foundational concepts to advanced defensive techniques.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade p-3" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
+                  <h4>Design & UX/UI</h4>
+                  <ul>
+                    <li>Graphic Design: Adobe Creative Suite, Figma, Canva.</li>
+                    <li>User Experience (UX): User Research, Wireframing, Prototyping.</li>
+                    <li>User Interface (UI): Interaction Design, Visual Design, Responsive Design.</li>
+                    <li>3D Modeling: Blender, Autodesk Maya, Cinema 4D.</li>
+                  </ul>
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#uiux">
+                    Read more...
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="uiux" tabindex="-1" aria-labelledby="cybersecurityLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Design & UX/UI: <br>Craft Exceptional Digital Experiences with <span class="text-warning">Codify</span></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p><b>Introduction</b></p>
+                          <p>In today’s digital landscape, exceptional design and user experience (UX) are key to creating products that engage and delight users. Whether you’re building a website, mobile app, or any digital interface, understanding the principles of Design and UX/UI is essential. At <span class="text-warning">Codify</span>, we provide a comprehensive set of resources to help you master the art and science of creating user-centered designs. Our content is tailored for everyone from beginners to seasoned designers, covering everything from fundamental concepts to advanced techniques.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>   
+
+            <p class="text-center">Explore these categories to find the resources that best suit your needs and start learning today with <span class="text-warning">Codify</span>!</p>         
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CATEGORIES END -->
+
+    <!-- ABOUT START -->
+    <div id="about">
+      <div class="container col-xxl-8">
+          <div class="row align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-4">
+              <img src="assets/gif1.gif" class="d-block mx-lg-auto img-fluid" width="400" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-8">
+              <h1 class="display-5 fw-bold lh-1 mb-3">About <span class="text-warning">Codify</span> <br><span class="fs-6">Your Ultimate Educational Resource Hub</span></h1>
+              <p >Welcome to Codify, the ultimate destination for learners and professionals who are passionate about expanding their knowledge and skills in technology, design, data science, and beyond. At Codify, we believe in the power of education to transform lives, unlock potential, and drive innovation.</p>
+            </div>
+            <div id="mission" class="col-sm-12">
+              <h3 class="fw-bold mb-4">Our Mission</h3>
+              <p class="mb-4">Our mission at <span class="text-warning">Codify</span> is simple: to empower individuals and organizations with the knowledge and tools they need to succeed in the digital age. We are dedicated to providing high-quality, accessible, and up-to-date educational resources that cater to a wide range of learners, from beginners to advanced professionals.</p>
+
+              <h3 class="fw-bold mb-4">We aim to:</h3>
+
+              <ul>
+                <li>Inspire Lifelong Learning: We create content that sparks curiosity and encourages continuous growth. Whether you're starting a new career, upskilling, or exploring a new passion, Codify offers resources that keep you motivated and informed.</li>
+                <li>Bridge the Skills Gap: In a rapidly evolving job market, having the right skills is crucial. Codify provides practical, hands-on training that helps learners acquire in-demand skills and stay competitive.</li>
+                <li>Foster a Global Community: Education is a collaborative journey. Codify connects learners from around the world, offering opportunities to share knowledge, collaborate on projects, and support each other's growth.</li>  
+              </ul>
+              
+            </div>
+          </div>
+       </div> 
+    </div>
+    <!-- ABOUT END -->
+
+    <!-- CONTACT START -->
+    <div id="contact">
+      <div class="container col-xl-10 col-xxl-8 py-5 rounded aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 pb-4">Contact Us</h1>
+            <p class="fs-4">We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
+
+            <p><b>Phone:</b> +1 (123) 456-7890<br>
+            <b>Email:</b> support@codifyhub.com <br>
+            <b>Address:</b> Codify HQ, 123 Innovation Drive, Tech City, CA 94000, USA</p>
+
+            <p><b>Hours of Operation:</b> <br>
+            Monday - Friday: 8:00 AM - 6:00 PM</p>
+
+            <p>You can also connect with us on social media:</p>
+            <div class="mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-facebook me-3" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+              </svg>  
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-twitter me-3" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-instagram me-3" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-linkedin " viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg>
+
+            </div>
+            
+
+            <p>Join <span class="text-warning">Codify</span> and become part of a thriving community dedicated to learning and growth. Together, we can achieve incredible things.</p>
+            
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Full Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Message</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary text-white" type="submit">Send</button>
+              <hr class="my-4">
+              <small class="text-muted">Thank you for choosing Heraz! We look forward to serving you.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT END -->
+
+    <!-- FOOTER START -->
+    <footer class="bg-dark">
+      <div class="container justify-content-md-between py-3 text-center">
+          <div class="d-block d-md-flex justify-content-center d-grid gap-3 text-white text-center">
+            <div>Copyright © 2024.</div> 
+            <div class="d-none d-md-inline-block">|</div> 
+            <div>Designed by Jean Brinas</div>
+          </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
 
     
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Animation | AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>
